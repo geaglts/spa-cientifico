@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = async () => {
     const view = /*html*/ `
         <div class="Header-main">
             <div class="Header-logo">
@@ -9,6 +9,8 @@ const Header = () => {
             </div>
         </div>
     `
+
+    return view
 }
 
 export default Header

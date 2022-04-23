@@ -1,2 +1,2 @@
-const a = (number) => number * number
-console.log(a(10))
+import router from './routes'
+window.addEventListener('load', router)
