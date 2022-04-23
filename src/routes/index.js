@@ -21,7 +21,7 @@ const router = async () => {
     const route = await resolveRoutes(hash)
     const render = routes[route] ? routes[route] : NotFound
 
-    content.innerHTML = render()
+    content.innerHTML = await render()
 }
 
 export default router
